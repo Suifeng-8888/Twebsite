@@ -1,0 +1,67 @@
+2019-12-28 14:18:04.951  INFO 16404 --- [main] com.qh.websit.WebsitApplication          : Starting WebsitApplication on DESKTOP-MIB2UMM with PID 16404 (G:\websit\target\classes started by xiaolan in G:\websit)
+2019-12-28 14:18:04.954  INFO 16404 --- [main] com.qh.websit.WebsitApplication          : The following profiles are active: dev
+2019-12-28 14:18:06.215  INFO 16404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 14:18:06.239  INFO 16404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-12-28 14:18:06.336  WARN 16404 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qh.smp.*.mapper]' package. Please check your configuration.
+2019-12-28 14:18:06.580  INFO 16404 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 14:18:07.054  INFO 16404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 14:18:07.062  INFO 16404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 14:18:07.063  INFO 16404 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-28 14:18:07.161  INFO 16404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 14:18:07.161  INFO 16404 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2138 ms
+2019-12-28 14:18:08.092  INFO 16404 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-12-28 14:18:08.152  INFO 16404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-28 14:18:08.155  INFO 16404 --- [main] com.qh.websit.WebsitApplication          : Started WebsitApplication in 3.93 seconds (JVM running for 4.706)
+2019-12-28 14:18:16.411  INFO 16404 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 14:18:16.412  INFO 16404 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-28 14:18:16.424  INFO 16404 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-12-28 14:18:17.445  WARN 16404 --- [http-nio-8080-exec-4] o.s.web.servlet.PageNotFound             : No mapping for GET /favicon.ico
+2019-12-28 14:18:17.471  INFO 16404 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 14:18:18.047  INFO 16404 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 14:19:22.542  INFO 16404 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-12-28 14:19:22.544  INFO 16404 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 14:19:22.553  INFO 16404 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 14:19:45.657  INFO 7860 --- [main] com.qh.websit.WebsitApplication          : Starting WebsitApplication on DESKTOP-MIB2UMM with PID 7860 (G:\websit\target\classes started by xiaolan in G:\websit)
+2019-12-28 14:19:45.659  INFO 7860 --- [main] com.qh.websit.WebsitApplication          : The following profiles are active: dev
+2019-12-28 14:19:46.324  INFO 7860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 14:19:46.344  INFO 7860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-12-28 14:19:46.429  WARN 7860 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qh.smp.*.mapper]' package. Please check your configuration.
+2019-12-28 14:19:46.613  INFO 7860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 14:19:46.811  INFO 7860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 14:19:46.823  INFO 7860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 14:19:46.823  INFO 7860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-28 14:19:46.903  INFO 7860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 14:19:46.903  INFO 7860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1178 ms
+2019-12-28 14:19:47.655  INFO 7860 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-12-28 14:19:47.702  INFO 7860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-28 14:19:47.705  INFO 7860 --- [main] com.qh.websit.WebsitApplication          : Started WebsitApplication in 2.514 seconds (JVM running for 3.111)
+2019-12-28 14:19:51.991  INFO 7860 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 14:19:51.991  INFO 7860 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-28 14:19:51.996  INFO 7860 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-28 14:19:52.280  INFO 7860 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 14:19:52.559  INFO 7860 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 14:21:04.147  INFO 7860 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-12-28 14:21:04.149  INFO 7860 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 14:21:04.157  INFO 7860 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-12-28 14:54:08.064  INFO 4140 --- [main] com.qh.websit.WebsitApplication          : Starting WebsitApplication on DESKTOP-MIB2UMM with PID 4140 (G:\websit\target\classes started by xiaolan in G:\websit)
+2019-12-28 14:54:08.066  INFO 4140 --- [main] com.qh.websit.WebsitApplication          : The following profiles are active: dev
+2019-12-28 14:54:08.764  INFO 4140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-28 14:54:08.791  INFO 4140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+2019-12-28 14:54:08.893  WARN 4140 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.qh.smp.*.mapper]' package. Please check your configuration.
+2019-12-28 14:54:09.094  INFO 4140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-28 14:54:09.291  INFO 4140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 14:54:09.300  INFO 4140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 14:54:09.301  INFO 4140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-28 14:54:09.404  INFO 4140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 14:54:09.404  INFO 4140 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1286 ms
+2019-12-28 14:54:10.160  INFO 4140 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2019-12-28 14:54:10.209  INFO 4140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-28 14:54:10.212  INFO 4140 --- [main] com.qh.websit.WebsitApplication          : Started WebsitApplication in 2.722 seconds (JVM running for 3.602)
+2019-12-28 14:54:19.105  INFO 4140 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-28 14:54:19.105  INFO 4140 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-28 14:54:19.109  INFO 4140 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-12-28 14:54:19.560  INFO 4140 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-12-28 14:54:19.869  INFO 4140 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-12-28 14:54:59.305  INFO 4140 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2019-12-28 14:54:59.306  INFO 4140 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-12-28 14:54:59.315  INFO 4140 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
